@@ -1,9 +1,3 @@
-import NavBar from "@/components/organisms/NavBar/Index";
-
 export default function Home() {
-  return (
-    <div>
-      <NavBar />
-    </div>
-  );
+  return <div className="flex flex-col items-center min-h-screen"></div>;
 }

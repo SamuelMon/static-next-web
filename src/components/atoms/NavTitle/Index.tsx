@@ -9,7 +9,7 @@ interface IndexProps {
 const Index = ({ title, link }: IndexProps) => {
   return (
     <Link href={link}>
-      <div className="h-20 flex items-center justify-center text-gray hover:text-secondary hover:cursor-pointer hover:border-b-2 border-primary">
+      <div className="h-16 flex items-center justify-center text-secondary text-2xl  lg:text-base lg:text-gray hover:text-secondary hover:cursor-pointer hover:border-b-2 border-primary">
         <h1 className="text-base font-normal">{title}</h1>
       </div>
     </Link>
