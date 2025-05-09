@@ -1,3 +1,9 @@
+import NavBar from "@/components/organisms/NavBar/Index";
+
 export default function Home() {
-  return <div>Hola Mundo</div>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }
