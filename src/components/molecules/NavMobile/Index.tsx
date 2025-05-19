@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
-import NavTitle from "@/components/atoms/NavTitle";
+// import NavTitle from "@/components/atoms/NavTitle";
 import Image from "@/components/atoms/Image";
 
 const Index = () => {
@@ -25,12 +25,12 @@ const Index = () => {
       </button>
       {isOpen && (
         <div className="flex flex-col items-center bg-white shadow-md h- w-5/6 absolute top-20 right-8 rounded-2xl">
-          <NavTitle title="Home" link="/home" />
+          {/* <NavTitle title="Home" link="/home" />
           <NavTitle title="About" link="#" />
           <NavTitle title="Contact" link="#" />
           <NavTitle title="Blog" link="#" />
           <NavTitle title="Carrers" link="#" />
-          <NavTitle title="Support" link="#" />
+          <NavTitle title="Support" link="#" /> */}
         </div>
       )}
     </div>
