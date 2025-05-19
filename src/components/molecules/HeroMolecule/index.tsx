@@ -1,6 +1,6 @@
 import React from "react";
-import { HeroTitle, SubText } from "../../atoms/Titles";
-import Button from "../../atoms/Button";
+import { HeroTitle, SubText } from "@/components/atoms/Titles";
+import Button from "@/components/atoms/Button";
 
 const Index = () => {
   return (
