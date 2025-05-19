@@ -12,6 +12,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center h-screen w-full bg-light-gray">
         {/*<BlogCard />*/}
       </div>
+      <div>Hola</div>
     </section>
   );
 }
