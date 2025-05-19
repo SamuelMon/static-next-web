@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
-import NavTitle from "../../atoms/NavTitle";
+import NavTitle from "@/components/atoms/NavTitle";
 
 const Index = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +29,7 @@ const Index = () => {
           <NavTitle title="Contact" link="#" />
           <NavTitle title="Blog" link="#" />
           <NavTitle title="Carrers" link="#" />
+          <NavTitle title="Support" link="#" />
         </div>
       )}
     </div>
