@@ -2,6 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 import NavTitle from "@/components/atoms/NavTitle";
+import Image from "@/components/atoms/Image";
 
 const Index = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ const Index = () => {
   return (
     <div className="flex flexrow justify-between items-center bg-white shadow-md h-16 w-full px-5 relative">
       <div>
-        <img src="/logo.png" alt="logo" />
+        <Image src="/logo.png" alt="logo" />
       </div>
       <button
         className="hover:cursor-pointer hover:bg-gray-200 rounded-full p-2 text-secondary hover:text-primary"
